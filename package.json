@@ -1,0 +1,25 @@
+{
+  "name": "node-oldb",
+  "version": "0.1.0",
+  "engines": {
+    "node": "0.10.26"
+  },
+  "description": "simple node app to access openligadb (which uses SOAP wdsl)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernd Nähler",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^3.4.8",
+    "grunt": "^0.4.4",
+    "jade": "^1.3.0",
+    "grunt-sass": "^0.11.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "grunt-contrib-watch": "^0.6.0",
+    "grunt-cli": "^0.1.13"
+  }
+}
